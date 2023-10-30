@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\icon_copy.png" />
+    <None Remove="Images\icon_cutting.png" />
+    <None Remove="Images\icon_open.png" />
+    <None Remove="Images\icon_paste.png" />
+    <None Remove="Images\icon_save.png" />
+    <None Remove="Images\icon_selectall.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ToastNotifications" Version="2.5.1" />
+    <PackageReference Include="ToastNotifications.Messages" Version="2.5.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\icon_copy.png" />
+    <Resource Include="Images\icon_cutting.png" />
+    <Resource Include="Images\icon_open.png" />
+    <Resource Include="Images\icon_paste.png" />
+    <Resource Include="Images\icon_save.png" />
+    <Resource Include="Images\icon_selectall.png" />
+  </ItemGroup>
+
+</Project>
