@@ -9,6 +9,6 @@ namespace WPF_TextEditor
 {
     public static  class Validation
     {
-        public static  bool isAnyTextSelected(TextBox txtContent) => txtContent.SelectedText.Length > 0;
+        public static bool isAnyTextSelected(TextBox txtContent) { return txtContent.SelectedText.Length > 0; }
     }
 }

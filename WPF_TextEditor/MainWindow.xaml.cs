@@ -144,6 +144,5 @@ namespace WPF_TextEditor
 
             cfg.Dispatcher = Application.Current.Dispatcher;
         });
-
     }
 }
